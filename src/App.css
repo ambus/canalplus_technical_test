@@ -35,4 +35,10 @@
 
 .app__body {
   color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.body__search {
+  width: 50vw;
 }

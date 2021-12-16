@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { SearchInput } from "./components/SearchInput";
 
-function App() {
+export const App = () => {
   return (
     <div className="app">
       <header className="app__header">
@@ -12,10 +13,16 @@ function App() {
         </p>
       </header>
       <div className="app__body">
-        <p>Body</p>
+        <div className="body__search">
+          <SearchInput
+            placeholder="Search"
+            id="search"
+            name="search"
+          ></SearchInput>
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default App;
