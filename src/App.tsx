@@ -18,6 +18,9 @@ export const App = () => {
             placeholder="Search"
             id="search"
             name="search"
+            onChange={(value) => {
+              console.log(value);
+            }}
           ></SearchInput>
         </div>
       </div>
