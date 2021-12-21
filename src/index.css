@@ -8,14 +8,11 @@ body {
 
   --primary_background_color: #41454d;
   --secondary_background_color: #282c34;
-  --primary_color: #0034ff;
-  --secondary_color: #75d699;
-  --third_color: #d4d998;
+  --primary_color: #76b2fe;
+  --secondary_color: #b69efe;
 
-  background-color: var(--primary_background_color);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  background: radial-gradient(
+    var(--primary_background_color),
+    var(--secondary_background_color)
+  );
 }
