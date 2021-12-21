@@ -44,8 +44,7 @@
   border-width: 3px;
   border-image: linear-gradient(
     90deg,
-    var(--third_color) 0%,
-    var(--secondary_color) 37%,
+    var(--secondary_color) 0%,
     var(--primary_color) 100%
   );
   border-image-slice: 1;
@@ -57,6 +56,6 @@
   display: block;
   transition: 0.2s;
   font-size: 1rem;
-  color: var(--third_color);
+  color: var(--secondary_color);
   font-weight: 700;
 }
