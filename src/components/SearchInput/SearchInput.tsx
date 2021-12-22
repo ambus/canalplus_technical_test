@@ -2,7 +2,7 @@ import React, { FC, useState } from "react";
 import { useDebounce } from "../../utils";
 import "./SearchInput.css";
 
-interface SearchInputProps {
+export interface SearchInputProps {
   placeholder: string;
   id: string;
   name: string;
@@ -39,3 +39,5 @@ export const SearchInput: FC<SearchInputProps> = ({
     </div>
   );
 };
+
+export default SearchInput;
